@@ -8,6 +8,7 @@ import os
 from database import get_db_connection, execute_query  # Fixed import
 from datetime import datetime
 import pytz
+import json
 
 EMAIL_SENDER = conf.MAIL_FROM
 
