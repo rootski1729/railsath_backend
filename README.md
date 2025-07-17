@@ -1,12 +1,12 @@
 # RailSathi Backend - Dockerized FastAPI Application
 
-## Assignment Overview
+## Overview
 
 This project demonstrates the **dockerization of a FastAPI application** (adapted from the original Django assignment) with PostgreSQL database integration, following all assignment requirements.
 
 **Note**: The provided repository was FastAPI-based rather than Django, so this implementation uses FastAPI while maintaining all core assignment objectives.
 
-## Assignment Requirements Met
+## Requirements Met
 
 ### Core Requirements
 -**Python Base Image**: Uses official `python:3.11-slim`
@@ -224,7 +224,7 @@ chmod +x wait-for-it.sh
 - Implement authentication/authorization
 - Secure environment variable handling
 
-## Assignment Compliance
+## Compliance
 
 ### Core Requirements Met
 1. **Python Base Image**: `python:3.11-slim` in Dockerfile
@@ -239,9 +239,3 @@ chmod +x wait-for-it.sh
 2. **Admin Interface**: pgAdmin for database management
 3. **API Documentation**: Swagger/OpenAPI auto-generated docs
 4. **Development Mode**: Hot reload with volume mounting
-
-### Assignment Adaptations
-- **FastAPI instead of Django**: Repository was FastAPI-based
-- **PostgreSQL Schema**: Custom railway management schema vs Django ORM
-- **API Endpoints**: RESTful complaint management vs Django views
-- **pgAdmin**: Database admin interface equivalent to Django admin
